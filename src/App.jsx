@@ -19,17 +19,8 @@ function App() {
 />
           </div>
           <h1 className="username">@blankeyy</h1>
+          <p className="bio">Twitch Streamer ∙ Software Engineer ∙ VALORANT</p>
         </header>
-
-                <footer className="social-row">
-          <a href="https://www.tiktok.com/@blankeyytv" className="social-icon" target="_blank" rel="noreferrer">TikTok</a>
-          <span className="dot">∙</span>
-          <a href="https://instagram.com/blvnke" className="social-icon" target="_blank" rel="noreferrer">Instagram</a>
-          <span className="dot">∙</span>
-          <a href="https://x.com/blankeyytv" className="social-icon" target="_blank" rel="noreferrer">X</a>
-          <span className="dot">∙</span>
-          <a href="https://open.spotify.com/user/7iosa6zosbstnzn6jxm1s0qqc" className="social-icon" target="_blank" rel="noreferrer">Spotify</a>
-        </footer>
 
         <main className="link-stack">
           <a href="https://www.twitch.tv/blankeyy" className="link-card highlight" target="_blank" rel="noreferrer">
@@ -52,6 +43,16 @@ function App() {
             blankeyytv@outlook.com ✉️
           </a>
         </main>
+
+                        <footer className="social-row">
+          <a href="https://www.tiktok.com/@blankeyytv" className="social-icon" target="_blank" rel="noreferrer">TikTok</a>
+          <span className="dot">∙</span>
+          <a href="https://instagram.com/blvnke" className="social-icon" target="_blank" rel="noreferrer">Instagram</a>
+          <span className="dot">∙</span>
+          <a href="https://x.com/blankeyytv" className="social-icon" target="_blank" rel="noreferrer">Twitter</a>
+          <span className="dot">∙</span>
+          <a href="https://open.spotify.com/user/7iosa6zosbstnzn6jxm1s0qqc" className="social-icon" target="_blank" rel="noreferrer">Spotify</a>
+        </footer>
 
 <div className="spotify-embed">
   <iframe
