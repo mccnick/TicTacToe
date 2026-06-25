@@ -19,7 +19,7 @@ function App() {
 />
           </div>
           <h1 className="username">@blankeyy</h1>
-          <p className="bio">Livestreams ∙ Gaming ∙ Atmospheric Vibes</p>
+          <p className="bio">Twitch Livestreams ∙ Valorant ∙ Chill ∙  Funny ∙ Spotify Enjoyer</p>
         </header>
 
         <main className="link-stack">
