@@ -1,5 +1,5 @@
 {
-  "name": "tictactoe",
+  "name": "blankeyy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --cname blankeyy.com"
   },
   "dependencies": {
     "react": "^19.2.7",
