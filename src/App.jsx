@@ -38,10 +38,6 @@ function App() {
           <a href="https://streamlabs.com/blankeyy/tip" className="link-card" target="_blank" rel="noreferrer">
             Paypal me 💸
           </a>
-
-                    <a href="mailto:blankeyytv@outlook.com" className="link-card" target="_blank" rel="noreferrer">
-            blankeyytv@outlook.com ✉️
-          </a>
         </main>
 
                         <footer className="social-row">
@@ -52,6 +48,8 @@ function App() {
           <a href="https://x.com/blankeyytv" className="social-icon" target="_blank" rel="noreferrer">Twitter</a>
           <span className="dot">∙</span>
           <a href="https://open.spotify.com/user/7iosa6zosbstnzn6jxm1s0qqc" className="social-icon" target="_blank" rel="noreferrer">Spotify</a>
+                    <span className="dot">∙</span>
+          <a href="mailto:blankeyytv@outlook.com" className="social-icon" target="_blank" rel="noreferrer">Email</a>
         </footer>
 
 <div className="spotify-embed">
