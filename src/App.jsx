@@ -28,7 +28,7 @@ function App() {
           </a>
           
           <a href="https://www.twitch.tv/subs/blankeyy" className="link-card" target="_blank" rel="noreferrer">
-            Subscribe to me monthly on Twitch 🎁
+            Subscribe to me on Twitch 🎁
           </a>
 
           <a href="https://discord.gg/ayZseEsfjU" className="link-card" target="_blank" rel="noreferrer">
@@ -36,11 +36,11 @@ function App() {
           </a>
 
           <a href="https://streamlabs.com/blankeyy/tip" className="link-card" target="_blank" rel="noreferrer">
-            Paypal me your hard earned cash!! 💸
+            Paypal me 💸
           </a>
 
                     <a href="mailto:blankeyytv@outlook.com" className="link-card" target="_blank" rel="noreferrer">
-            Email me: blankeyytv@outlook.com ✉️
+            blankeyytv@outlook.com ✉️
           </a>
         </main>
 
@@ -53,6 +53,8 @@ function App() {
           <span className="dot">∙</span>
           <a href="https://open.spotify.com/user/7iosa6zosbstnzn6jxm1s0qqc" className="social-icon" target="_blank" rel="noreferrer">Spotify</a>
         </footer>
+
+        
       </div>
     </div>
   );

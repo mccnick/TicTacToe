@@ -3,10 +3,12 @@
   --bg-base: #050507;
   --text-main: #f4f4f5;
   --text-muted: #a1a1aa;
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.08);
-  --glass-hover: rgba(255, 255, 255, 0.08);
-  --accent-glow: rgba(139, 92, 246, 0.15); /* Ethereal purple glow */
+
+--glass-bg: rgba(0, 0, 0, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.12);
+--glass-hover: rgba(0, 0, 0, 0.78);
+
+  --accent-glow: rgba(139, 92, 246, 0.15);
 }
 
 /* Reset & Container */
@@ -146,8 +148,8 @@ body {
 }
 
 .link-card.highlight {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
 /* Social Icon Row */
