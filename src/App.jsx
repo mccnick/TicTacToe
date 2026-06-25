@@ -19,24 +19,28 @@ function App() {
 />
           </div>
           <h1 className="username">@blankeyy</h1>
-          <p className="bio">Twitch Livestreams ∙ Valorant ∙ Chill ∙  Funny ∙ Spotify Enjoyer</p>
+          <p className="bio">Twitch Livestreams ∙ Valorant ∙ Funny ∙  Chill</p>
         </header>
 
         <main className="link-stack">
           <a href="https://www.twitch.tv/blankeyy" className="link-card highlight" target="_blank" rel="noreferrer">
-            Watch Me Crash Out Live on Twitch!
+            Watch Me Live on Twitch! 👾
           </a>
           
+          <a href="https://www.twitch.tv/subs/blankeyy" className="link-card" target="_blank" rel="noreferrer">
+            Subscribe to me monthly on Twitch 
+          </a>
+
           <a href="https://discord.gg/ayZseEsfjU" className="link-card" target="_blank" rel="noreferrer">
             Join my Discord Server 🙂
           </a>
 
-          <a href="https://www.twitch.tv/subs/blankeyy" className="link-card" target="_blank" rel="noreferrer">
-            Subscribe to me on Twitch
+          <a href="https://streamlabs.com/blankeyy/tip" className="link-card" target="_blank" rel="noreferrer">
+            Paypal me your hard earned cash!!
           </a>
 
-          <a href="https://streamlabs.com/blankeyy/tip" className="link-card" target="_blank" rel="noreferrer">
-            Donate your hard earned cash!!
+                    <a href="mailto:blankeyytv@outlook.com" className="link-card" target="_blank" rel="noreferrer">
+            Email me: blankeyytv@outlook.com
           </a>
         </main>
 
