@@ -171,15 +171,29 @@ body {
 .dot {
   color: var(--text-muted);
   font-size: 0.8rem;
+  gap: 0.25rem;
 }
 
 .image-background {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
+  background-size: 106%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   z-index: 0;
+  animation: angelFloat 15s ease-in-out infinite alternate;
+}
+
+@keyframes angelFloat {
+  from {
+    background-size: 106%;
+    background-position: 50% 50%;
+  }
+
+  to {
+    background-size: 120%;
+    background-position: 50% 48%;
+  }
 }
 
 /* Dark overlay so buttons/text stay readable */
