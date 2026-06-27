@@ -45,8 +45,8 @@ body {
   z-index: 0;
   overflow: hidden;
 
-  --bg-zoom: 1.06;
-  --bg-duration: 30s;
+  --bg-zoom: 1.2;
+  --bg-duration: 35s;
 }
 
 /* Actual image layer */
