@@ -177,37 +177,46 @@ body {
 .image-background {
   position: absolute;
   inset: 0;
-  background-size: 106%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
   z-index: 0;
-  animation: angelFloat 15s ease-in-out infinite alternate;
+  overflow: hidden;
+  background-image: inherit;
 }
 
-@keyframes angelFloat {
-  from {
-    background-size: 106%;
-    background-position: 50% 50%;
-  }
+/* Put the actual image on a pseudo-element */
+.image-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
 
-  to {
-    background-size: 120%;
-    background-position: 50% 48%;
-  }
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transform: scale(1);
+  transform-origin: center;
+  animation: angelFloat 30s ease-in-out infinite alternate;
+
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
-/* Dark overlay so buttons/text stay readable */
+/* Optional dark overlay */
 .image-background::after {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(5, 5, 7, 0.45),
-      rgba(5, 5, 7, 0.8)
-    );
-  z-index: 1;
+  background: rgba(5, 5, 7, 0.35);
+}
+
+@keyframes angelFloat {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.06);
+  }
 }
 
 .app-container {
