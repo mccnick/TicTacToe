@@ -1,14 +1,11 @@
-/* Base Theme Variables */
 :root {
-  --bg-base: #050507;
-  --text-main: #f4f4f5;
-  --text-muted: #a1a1aa;
+  --glass-bg: rgba(0, 0, 0, 0.68);
+  --glass-hover: rgba(0, 0, 0, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.28);
+}
 
---glass-bg: rgba(0, 0, 0, 0.65);
-  --glass-border: rgba(255, 255, 255, 0.12);
---glass-hover: rgba(0, 0, 0, 0.78);
-
-  --accent-glow: rgba(139, 92, 246, 0.15);
+.link-card.highlight {
+  background: rgba(0, 0, 0, 0.78);
 }
 
 /* Reset & Container */
