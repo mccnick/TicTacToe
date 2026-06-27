@@ -40,17 +40,26 @@ function App() {
           </a>
         </main>
 
-                        <footer className="social-row">
-          <a href="https://www.tiktok.com/@blankeyytv" className="social-icon" target="_blank" rel="noreferrer">TikTok</a>
-          <span className="dot">∙</span>
-          <a href="https://instagram.com/blvnke" className="social-icon" target="_blank" rel="noreferrer">Instagram</a>
-          <span className="dot">∙</span>
-          <a href="https://x.com/blankeyytv" className="social-icon" target="_blank" rel="noreferrer">Twitter</a>
-          <span className="dot">∙</span>
-          <a href="https://open.spotify.com/user/7iosa6zosbstnzn6jxm1s0qqc" className="social-icon" target="_blank" rel="noreferrer">Spotify</a>
-                    <span className="dot">∙</span>
-          <a href="mailto:blankeyytv@outlook.com" className="social-icon" target="_blank" rel="noreferrer">Email</a>
-        </footer>
+      <footer className="social-row">
+
+            <a href="https://x.com/blankeyytv" className="social-icon" target="_blank" rel="noreferrer">X</a>
+        <span className="dot">∙</span>
+
+
+        <a href="https://www.tiktok.com/@blankeyytv" className="social-icon" target="_blank" rel="noreferrer">TikTok</a>
+        <span className="dot">∙</span>
+
+        <a href="https://instagram.com/blvnke" className="social-icon" target="_blank" rel="noreferrer">IG</a>
+        <span className="dot">∙</span>
+
+        <a href="https://medal.tv/u/blankeyytv" className="social-icon" target="_blank" rel="noreferrer">Medal</a>
+        <span className="dot">∙</span>
+
+        <a href="https://open.spotify.com/user/7iosa6zosbstnzn6jxm1s0qqc" className="social-icon" target="_blank" rel="noreferrer">Spotify</a>
+        <span className="dot">∙</span>
+
+        <a href="mailto:blankeyytv@outlook.com" className="social-icon">Email</a>
+      </footer>
 
 <div className="spotify-embed">
   <iframe
