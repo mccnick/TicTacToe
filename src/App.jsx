@@ -40,6 +40,7 @@ function App() {
           </a>
         </main>
 
+<p className="bio">find me elsewhere:</p>
       <footer className="social-row">
 
             <a href="https://x.com/blankeyytv" className="social-icon" target="_blank" rel="noreferrer">X</a>
